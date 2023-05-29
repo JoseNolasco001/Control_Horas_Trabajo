@@ -1,0 +1,8 @@
+C:\Users\jose_\source\repos\Control_Horas_Trabajo\Control_Horas_Trabajo\bin\Debug\Control_Horas_Trabajo.exe.config
+C:\Users\jose_\source\repos\Control_Horas_Trabajo\Control_Horas_Trabajo\bin\Debug\Control_Horas_Trabajo.exe
+C:\Users\jose_\source\repos\Control_Horas_Trabajo\Control_Horas_Trabajo\bin\Debug\Control_Horas_Trabajo.pdb
+C:\Users\jose_\source\repos\Control_Horas_Trabajo\Control_Horas_Trabajo\obj\Debug\Control_Horas_Trabajo.csproj.AssemblyReference.cache
+C:\Users\jose_\source\repos\Control_Horas_Trabajo\Control_Horas_Trabajo\obj\Debug\Control_Horas_Trabajo.csproj.SuggestedBindingRedirects.cache
+C:\Users\jose_\source\repos\Control_Horas_Trabajo\Control_Horas_Trabajo\obj\Debug\Control_Horas_Trabajo.csproj.CoreCompileInputs.cache
+C:\Users\jose_\source\repos\Control_Horas_Trabajo\Control_Horas_Trabajo\obj\Debug\Control_Horas_Trabajo.exe
+C:\Users\jose_\source\repos\Control_Horas_Trabajo\Control_Horas_Trabajo\obj\Debug\Control_Horas_Trabajo.pdb
