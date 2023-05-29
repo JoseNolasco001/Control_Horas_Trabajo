@@ -32,7 +32,7 @@ namespace Control_Horas_Trabajo
             guillermo.CargarHorasTrabajadasProyecto(capacitacion2, 9);
             guillermo.CargarHorasTrabajadasProyecto(capacitacion2, 9);
             guillermo.CargarHorasTrabajadasProyecto(capacitacion2, 9);
-            guillermo.CargarHorasTrabajadasProyecto(capacitacion2, 8);
+            guillermo.CargarHorasTrabajadasProyecto(capacitacion2, 10);
             guillermo.CargarHorasTrabajadasProyecto(capacitacion2, 9);
 
             Console.WriteLine("\nhoras trabajadas por " + jose.nombre + " en el proyecto " + capacitacion.nombre + ":" + jose.ObtenerHorasTrabajadas(capacitacion));
@@ -102,8 +102,7 @@ namespace Control_Horas_Trabajo
             {
                 if (this.proyectosAsignados[i] == proyecto)
                 {
-                    this.proyectosAsignados[i].horasTrabajadas += horas;
-                    Console.WriteLine(this.nombre + " cargo " + horas + " horas al proyecto " + this.proyectosAsignados[i].nombre);
+                    this.proyectosAsignados[i].CargarHorasTrabajo(this.nombre,horas);
                     existe = true; break;
                 }
             }
@@ -174,5 +173,16 @@ namespace Control_Horas_Trabajo
             }
         }
 
+        public void CargarHorasTrabajo(string nombre,int horas)
+        {
+            if (this.horasTrabajadas + horas < this.duracionHoras){
+                this.horasTrabajadas += horas;
+                Console.WriteLine(nombre + " cargo " + horas + " horas al proyecto " + this.nombre);
+            }
+            else
+            {
+                Console.WriteLine(nombre+" exedio las "+this.duracionHoras+" horas de trabajo para este proyecto\n");
+            }
+        }
     }
 }
